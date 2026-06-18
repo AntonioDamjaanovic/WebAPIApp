@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Table</title>
+</head>
+<body>
+    <h1>Table</h1>
+
+    <button onclick="showCreateBookForm()">Add book</button>
+    <button onclick="getBooksFromLocalStorage()">Refresh books</button>
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            
+            
+        </tbody>
+    </table>
+
+    <br>
+
+    <div id="formContainer"></div>
+</body>
+</html>
